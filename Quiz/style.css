@@ -1,0 +1,12 @@
+p{
+    background-color: darkgreen;
+}
+#one{
+    background-color: darkgreen;
+}
+tr{
+    text-align: center;
+    border-style: dashed;
+    border:solid;
+    border-color: yellow;
+}

@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 400px;
+    width: 300px;
+}
+back{
+    background-color: black;
+    width: 650px;
+    height: 600px;
+    position: absolute;
+    left: 25%;
+}
+#top{
+    height: 100px;
+    width: 360px;
+    background-color: blue;
+    border-style: solid;
+    border-left: 2px;
+    border-bottom: 2px;
+    border-color: yellow;
+    border-bottom-right-radius: 15%;
+}
+#bottom{
+    height: 100px;
+    width: 360px;
+    position: absolute;
+    bottom: 0;
+    background-color: red;
+    border-style: solid;
+    border-left: 2px;
+    border-bottom: 2px;
+    border-color: ;
+}
