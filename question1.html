@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#a").click(function(){
+                $("div").animate({
+                   
+                    left:"500px",
+                    height:"100px",
+                    width:"100px",
+                    
+                });
+                alert('Moved right and increased width');
+                $("#b").click(function(){   
+                $("div").animate({
+                    left:"0px",
+                    height:"50px",
+                    width:"50px",
+
+                });
+                alert('Moved left and decreased width');
+            });
+            });
+        });
+    </script>
+</head>
+<body>
+    <button id="a">Right</button>
+    <button id="b">left</button>
+    <div style="background-color: aquamarine; height: 50px; width: 50px; position: fixed;"></div>
+</body>
+</html>
