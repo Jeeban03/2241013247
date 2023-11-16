@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Q1</title>
+</head>
+<body>
+    <div id="selected">
+        <p>Red</p>
+        <p>White</p>
+        <p>Green</p>
+        <p>Black</p>
+        <p>Orange</p>
+    </div>
+    <button id="btn">Click Me</button>
+    <script>
+        $(document).ready(function(){
+            var count=$("#selected").children().length;
+            $("#btn").click(function(){
+                $("#selected").text(count);
+            });
+        });
+    </script>
+</body>
+</html>
